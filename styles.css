@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(rgb(133, 8, 133),rgb(82, 5, 82));
+    background-repeat: no-repeat;
+}
+.container-fluid,.container{
+    height:100%;
+}
+.card{
+    background: linear-gradient(rgb(175, 14, 175),rgb(82, 5, 82));
+}
+.h-100{
+    border:1px solid purple;
+}
+.btn{
+    background-color: rgb(175, 14, 175);
+}
+.btn:hover{
+    background-color: rgb(124, 40, 124);
+    border:1px solid #FFF;
+    opacity: .7;
+}
+.btn:focus{
+    outline: silver;
+}
